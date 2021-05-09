@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 //React17Update JSXのみ使用の場合　import必須では無い
-import ColorfullMessage from "./components/ColorfulMessage";
+import { ColorfullMessage } from "./components/ColorfulMessage";
 const App = () => {
   console.log("最初");
   const [num, setNum] = useState(0);
